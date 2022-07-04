@@ -1,0 +1,11 @@
+PATCH   https://capmprod-resplendent-quoll-hl.cfapps.us10.hana.ondemand.com/v2/srv/CatalogService/Product/4
+Content-Type: application/json
+
+
+  {
+                "PRODUCTNAME": "Azitomycin",
+                "QUANTITYPERUNIT": "12 - 550 ml bottles",
+                "UNITPRICE": 10,
+                "UNITSINSTOCK": 2
+                
+  }

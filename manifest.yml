@@ -1,0 +1,19 @@
+---
+applications:
+
+  - name: prodhdiconf
+    path: ./gen/db
+    no-route: true
+    health-check-type: process
+    memory: 128M
+    buildpacks:
+      - nodejs_buildpack
+    services:
+      - prodhdi
+
+  - name: capmprod
+    path: .
+    random-route: true
+    memory: 128M
+    services:
+       - prodhdi
