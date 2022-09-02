@@ -7,6 +7,7 @@ entity Product  {
         UNITPRICE       : Integer        @title : 'UnitPrice';
         UNITSINSTOCK    : Integer        @title : 'UnitsInStock';
         
+        
 }
 
 

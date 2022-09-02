@@ -9,11 +9,11 @@ applications:
     buildpacks:
       - nodejs_buildpack
     services:
-      - prodhdi
+      - prodhdidb
 
   - name: capmprod
     path: .
     random-route: true
     memory: 128M
     services:
-       - prodhdi
+       - prodhdidb
